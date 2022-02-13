@@ -107,16 +107,16 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
-  max-width: 80rem;
+  gap: 20rem;
+  max-width: 90rem;
   margin: auto;
   margin-top: 70px;
-  
+  /* margin-bottom: 120px; */
 }
 
 
 .hero img {
- height: 400px;
+ height: 600px;
   width: auto; 
  border-radius: 50%;
 }
@@ -142,11 +142,19 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  margin-top: 80px;
+  /* display: flex;
+  flex-direction: row;
+  gap: 10%; */
+  margin-bottom: 150px;
 }
 
 .more-about h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .more-about p {
@@ -160,11 +168,14 @@ nav ul li {
   max-width: 68.75rem;
   margin: auto;
   text-align: center;
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
 }
 
 .skill-header {
-  margin-bottom: 1rem;
+  margin-bottom: 100px;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
 .skills-wrapper img {
@@ -172,8 +183,8 @@ nav ul li {
 }
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 150px;
+  height: 130px;
 }
 /* Skills section ends */
 
@@ -181,7 +192,7 @@ nav ul li {
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
-  margin-top: 2rem;
+  margin-top: 100px;
 }
 
 .project-pic {
@@ -193,17 +204,25 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 90%;
+  gap: 50px;
+  margin: auto;
+  
 }
 
 .projects-title {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
 .project-container {
   text-align: center;
-  width: 21.875rem;
-  padding: 1rem;
+  
+  padding: 10px;
+ 
 }
 
 .project-container p {
@@ -212,10 +231,16 @@ nav ul li {
 
 .project-title {
   margin-bottom: var(--bottom-margin);
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+  font-weight: 400;
+  color: rgb(43, 43, 42);
+  
 }
 
 /* Projects section ends */
@@ -235,13 +260,13 @@ nav ul li {
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  /* box-shadow: 0 3px 10px var(--secondary-shadow); */
 }
 
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color: rgb(77, 76, 76)
 }
 
 .contact-form-container textarea {
@@ -287,15 +312,16 @@ nav ul li {
 /* Social buttons */
 .socials {
   display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 1%;
-  bottom: 50%;
+  flex-direction: row;
+   /* position: fixed;  */
+  margin-left: 68%;
+  /* right: 1%;
+  bottom: 50%; */
 }
 
 .socicon {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
 }
 /* Social button ends */
 
@@ -432,4 +458,40 @@ footer {
   .contact-form-container {
     max-width: 17.75rem;
   }
+}
+#abt{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+#demo{
+  display: flex;
+  flex-direction: row;
+  
+}
+#code{
+  background-color: rgb(3, 3, 51);
+  height: 20px;
+  width: 100px;
+ 
+}
+#show{
+  background-color: rgb(3, 3, 51);
+  
+  height: 20px;
+  width: 100px;
+  margin-left: 80%;
+}
+#footer{
+  background-color: black;
+  box-shadow: 5px 0px black;
+}
+.form-control label{
+  height: auto;
 }

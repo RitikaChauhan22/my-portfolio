@@ -58,7 +58,7 @@
       />
       </div> -->
       <img src="/assets/images/girl-laptop.jpg" alt="anime">
-      <div class="bio animate__animated animate__shakeX">
+      <div class="bio animate__animated animate__shakeX" style="font-size: 20px; font-weight: 900;">
         <!-- <h2 class="bio-title">About Me</h2> -->
         <!-- <p class="bio-text">
           
@@ -67,22 +67,75 @@
         <h1>Hey, </h1>
         <h1>I am <span style="color: rgb(0, 204, 255);">Ritika</span></h1>
         <h1>Web Developer</h1>
-        <a href="https://drive.google.com/file/d/1k8SxzsBMvccKYn-HYYF0mt0pySAI2pcl/view?usp=sharing"><h2>Resume</h2></a>
+        <div class="bio animate__animated animate__shakeX" style="width: 140px; background-color: rgb(6, 6, 41); font-weight: 400; font-size: 15px;">
+        <a href="https://drive.google.com/file/d/1k8SxzsBMvccKYn-HYYF0mt0pySAI2pcl/view?usp=sharing"><h2>
+          <span style="color: white;">
+            Resume
+          </span>
+          </h2></a>
+        </div>
       </div>
+      
+        
+      
     </section>
+
+
+     <!-- Social accounts  -->
+     <div class="socials">
+      <!-- <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a> -->
+      <!-- <a href="" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a> -->
+      <a href="https://www.linkedin.com/in/ritika-chauhan-0aa803210" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/RitikaChauhan22" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    
 
     <!-- More about -->
     <section class="more-about">
       <h2>About</h2>
-      <p>
+      <div id="abt">
+        <div>
+        <img style="border-radius: 50%; height: 400px; width: auto;"
+        src="assets/images/portfolio-image.jpeg"
+        alt="Avatar"
+        loading="lazy"
+       
+      />
+      </div> 
+      <div style="margin-top: 100px;">
+        <h1 style="margin-bottom: 20px; font-family: Arial, Helvetica, sans-serif; color: rgb(1, 18, 32); letter-spacing: 0.5px;">Hello, I am Ritika Chauhan</h1>
+      <p style="letter-spacing: 0.5px;">
         I am an aspiring Full Stack Web Developer. My technical skillsets are primarily focused om the MERN stack and problem solving is my passion. I've got a curious mind and I'm a quick learner; Hence I'm always looking for newer challenges.
       </p>
+      </div>
+    </div>
       
     </section>
 
     <!-- Skills section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <h2 class="skill-header" style="">My Top Skills</h2>
 
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
@@ -133,7 +186,7 @@
     <section class="projects" id="projects">
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
-        <div class="project-container project-card">
+        <div class="project-container project-card" style="width: 40%;">
           <img
             src="assets/images/max-fashion.png"
             alt="Max Fashion Clone "
@@ -141,33 +194,48 @@
             class="project-pic"
           />
           <h3 class="project-title">Max Fashion Clone</h3>
-          <p class="project-details">
+          <p class="project-details" style="letter-spacing: 0.5px;">
             Max-Fashion is an E-Commerce website.
             In this project we tried to the best of our ability to replicate all the functionality and also nearly complete UI of the site. 
             This was a great learning curve as initially it seemed imposible to acheive the objective but with time as we kept on learning new tools and technique during construct week we finally tasted the success in completing the project.
           </p>
-          <a href="https://ritika-maxfashion-clone.netlify.app/" target="_blank" class="project-link">Demo</a>
+          <div id="demo">
+            <div id="code">
+            <a href="https://github.com/RitikaChauhan22/Max-Fashion2"><span style="color: white;">Code</span></a>
+            </div>
+            <div id="show">
+            <a href="https://ritika-maxfashion-clone.netlify.app/" target="_blank" class="project-link"><span style="color: white;">Demo</span></a>
+            </div>
+          </div>
         </div>
         
-        <div class="project-container project-card">
+        <div class="project-container project-card" style="width: 40%;">
           <img
             src="assets/images/myntra-home.png"
             alt="myntra-clone"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Myntra Clone</h3>
-          <p class="project-details">
+          <h3 class="project-title">Myntra.com Clone</h3>
+          <p class="project-details" style="letter-spacing: 0.5px;">
             Myntra is an Indian e-commerce giant specializing in fashion & apparel sector. This clone is developed primarily using NodeJs, ExpressJs, MongoDB & EJS for smooth user experience.
           </p>
-          <a href="ritika-myntra-clone.netlify.app" target="_blank" class="project-link">Demo</a>
+          <div id="demo">
+            <div id="code">
+              <a href="https://github.com/RitikaChauhan22/Myntraclone"><span style="color: white;">Code</span></a>
+              </div>
+              <div id="show">
+              <a href="https://ritika-myntra-clone.netlify.app" target="_blank" class="project-link"><span style="color: white;">Demo</span></a>
+              </div>
+            </div>
         </div>
       </div>
     </section>
 
     <!-- Contact section -->
+    <div id="footer">
     <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
+      <h2><span style="color: white; font-size: 40px; font-weight: 300;">Contact Me</span></h2>
       <div class="contact-form-container">
         <div class="contact-form">
           <form action="https://formspree.io/f/xyylnggw" method="POST">
@@ -207,7 +275,7 @@
             </div>
             <input
               type="submit"
-              value="Submit"
+              value="SEND"
               id="submit-btn"
               class="submit-btn"
             />
@@ -215,10 +283,10 @@
         </div>
       </div>
     </section>
-
+  </div>
     <!-- Social accounts - Fixed to the right -->
-    <div class="socials">
-      <!-- <a href="#" target="_blank"
+    <!-- <div class="socials">
+       <a href="#" target="_blank"
         ><img
           src="assets/icons/icons8-twitter-circled.gif"
           alt="Twitter"
@@ -232,7 +300,7 @@
           loading="lazy"
           class="socicon"
       /></a> -->
-      <a href="https://www.linkedin.com/in/ritika-chauhan-0aa803210" target="_blank"
+      <!-- <a href="https://www.linkedin.com/in/ritika-chauhan-0aa803210" target="_blank"
         ><img
           src="assets/icons/icons8-linkedin-circled.gif"
           alt="Linkedin"
@@ -242,15 +310,15 @@
       <a href="https://github.com/RitikaChauhan22" target="_blank"
         ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
       /></a>
-    </div>
+    </div> --> 
 
     <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up"
+    <!-- <i class="scroll-up" id="scroll-up"
       ><img
         src="assets/icons/icons8-upward-arrow.gif"
         class="socicon up-arrow"
         alt=""
-    /></i>
+    /></i> -->
 
     <!-- Footer section -->
     <footer>
