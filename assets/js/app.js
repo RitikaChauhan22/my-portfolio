@@ -1,31 +1,36 @@
-// Nav hamburgerburger selections
-const burger = document.querySelector("#burger-menu");
-const ul = document.querySelector("nav ul");
-const nav = document.querySelector("nav");
+const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
+const header = document.querySelector('.header.container');
 
-// Scroll to top selection
-const scrollUp = document.querySelector("#scroll-up");
-
-// Select nav links
-const navLink = document.querySelectorAll(".nav-link");
-
-// Hamburger menu function
-burger.addEventListener("click", () => {
-  ul.classList.toggle("show");
+hamburger.addEventListener('click', () => {
+	hamburger.classList.toggle('active');
+	mobile_menu.classList.toggle('active');
 });
 
-// Close hamburger menu when a link is clicked
-navLink.forEach((link) =>
-  link.addEventListener("click", () => {
-    ul.classList.remove("show");
-  })
-);
+document.addEventListener('scroll', () => {
+	var scroll_position = window.scrollY;
+	if (scroll_position > 250) {
+		header.style.backgroundColor = '#29323c';
+	} else {
+		header.style.backgroundColor = 'transparent';
+	}
+});
+
+menu_item.forEach((item) => {
+	item.addEventListener('click', () => {
+		hamburger.classList.toggle('active');
+		mobile_menu.classList.toggle('active');
+	});
+});
+
+const scrollUp = document.querySelector("#scroll-up");
 
 // scroll to top functionality
 scrollUp.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
+	window.scrollTo({
+	  top: 0,
+	  left: 0,
+	  behavior: "smooth",
+	});
   });
-});
