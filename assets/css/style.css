@@ -68,7 +68,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: rgb(32, 4, 83);
+	color: brown;
 }
 
 /* Header section */
@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(../img/job.gif);
+	background-image: url("https://cdn.dribbble.com/users/1124806/screenshots/4871258/ezgif.com-optimize.gif");
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -248,7 +248,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: rgb(19, 2, 94);
+	background-color: rgb(13, 1, 65);
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -352,6 +352,7 @@ p {
 	flex-direction: column;
 	width: 80%;
 	margin: 20px auto;
+	
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -391,7 +392,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, rgb(2, 2, 61) 0%,  100%);
 	opacity: 0.7;
 }
 #projects .project-img img {
@@ -473,11 +474,11 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0px 0px 18px 0 #0000002c;
+	box-shadow: 0px 0px 18px 0 rgb(27, 2, 85);
 	transition: 0.3s ease box-shadow;
 }
 #contact .contact-item:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
+	box-shadow: 0px 0px 5px 0 rgb(27, 2, 85);
 }
 #contact .icon {
 	width: 70px;
@@ -498,7 +499,7 @@ p {
 
 /* Footer */
 #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, rgb(2, 2, 49) 0%, rgb(1, 1, 63) 100%);
 }
 #footer .footer {
 	min-height: 200px;
